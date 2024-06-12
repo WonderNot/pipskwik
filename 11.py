@@ -11,7 +11,7 @@ bot = telebot.TeleBot(TOKEN)
 print("Start bot")
 
 
-# создание и подключение к базе данных
+# создание и подключение к базе данных 5
 @bot.message_handler(commands=["start"])
 def start(message):
     chat_id = message.chat.id
