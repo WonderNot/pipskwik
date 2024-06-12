@@ -23,7 +23,7 @@ def start(message):
     markup.add(button1, button2)
     bot.send_message(
         chat_id,
-        f" прив, {first_name}!\n"
+        f" hi, {first_name}!\n"
         "ты существуешь?",
         reply_markup=markup,
     )
